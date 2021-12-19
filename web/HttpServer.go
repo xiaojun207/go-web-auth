@@ -3,8 +3,8 @@ package web
 import (
 	"encoding/json"
 	"github.com/codegangsta/negroni"
-	"github.com/dgrijalva/jwt-go"
-	"github.com/dgrijalva/jwt-go/request"
+	"github.com/golang-jwt/jwt/v4"
+	"github.com/golang-jwt/jwt/v4/request"
 	"log"
 	"net/http"
 	"strconv"
